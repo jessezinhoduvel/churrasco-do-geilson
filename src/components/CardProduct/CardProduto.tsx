@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { ProdutosContext } from "../../Contexts/ProductsContext";
+import { FaWhatsapp } from 'react-icons/fa';
 
 export const CardProduto = ({
   id,
@@ -21,7 +22,7 @@ export const CardProduto = ({
   // 3. Componente do título
   const Titulo = () => {
     return (
-      <h4 className="text-gray-600 font-bold text-[18px] mb-1">
+      <h4 className="text-gray-600 font-bold text-[20px] leading-[100%] mb-2">
         {produto.nome}
       </h4>
     );
@@ -43,7 +44,7 @@ export const CardProduto = ({
 
   const Desc = () => {
     return (
-      <p className="line-clamp-2 overflow-hidden w-full leading-[110%] text-gray-600 text-[14px] mb-3">
+      <p className="line-clamp-2 overflow-hidden w-full leading-[105%] text-gray-500 text-[16px]  mb-3">
         {produto.descricao}
       </p>
     );
@@ -51,11 +52,23 @@ export const CardProduto = ({
 
   const Valor = () => {
     return (
-      <p className="text-orange-500 font-bold inline-block text-[16px]">
+      <p className=" font-bold inline-block text-[16px] text-gray-600">
         R$ {produto.valor?.toFixed(2)}
       </p>
     );
   };
+
+const AddButton = () => {
+  return (
+    <div className="group flex items-center gap-4 p-2 font-medium text-orange-400 text-nowrap hover:bg-orange-500 bg-orange-100 hover:text-white rounded-full transition cursor-pointer">
+      <p className="ml-2">Pedir Agora</p>
+      <div className="text-orange-400 group-hover:text-white">
+        <FaWhatsapp className="w-5 h-5 transition-opacity opacity-80 group-hover:opacity-100" />
+      </div>
+    </div>
+  );
+};
+
 
   return tipo === "primario" ? (
     <div className="card-produto shadow rounded-2xl overflow-clip flex">
@@ -72,16 +85,19 @@ export const CardProduto = ({
     </div>
   ) : (
     // Aqui você pode adicionar o layout para o tipo "secundário"
-    <div className="p-2 shadow rounded-lg overflow-clip reveal">
-      <div className="aspect-[4/3] rounded-xl overflow-hidden">
+    <div className=" shadow flex flex-col rounded-xl p-4 overflow-clip relative h-full">
+      <div className="aspect-[4/3] rounded-xl overflow-hidden  ">
         <Img />
       </div>
-      <div className="flex flex-col justify-between bg-white">
+      <div className="flex flex-grow flex-col justify-between rounded-md   bg-white ">
         <div className="mt-4">
           <Titulo />
           <Desc />
         </div>
-        <Valor />
+        <div className="flex justify-between gap-4 items-center flex-grow ">
+          <Valor />
+          <AddButton />
+        </div>
       </div>
     </div>
   );

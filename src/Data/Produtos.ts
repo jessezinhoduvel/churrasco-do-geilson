@@ -21,12 +21,7 @@ export const produtos: IProduto[] = [
     descricao: "Espeto de carne, frango e toscana + arroz, salada, feijão, purê e vatapá.",
     valor: 25.0,
     categoria: "churrasco_completo",
-<<<<<<< HEAD
     imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXIDNvdmZITZtlAgTddYGBBgbetira9hCG-g&s",
-=======
-    imgUrl:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXIDNvdmZITZtlAgTddYGBBgbetira9hCG-g&s",
->>>>>>> 2c051ca5c5f50947c2ecfb0f1754bd6c985c89ac
   },
   {
     id: 2,
@@ -34,12 +29,7 @@ export const produtos: IProduto[] = [
     descricao: "Alcatra assada + arroz, feijão tropeiro, vinagrete e farofa.",
     valor: 30.0,
     categoria: "churrasco_completo",
-<<<<<<< HEAD
     imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFVB5TSwIIiVgEbf7tenLdHkfqCp8M0ElaQ&s",
-=======
-    imgUrl:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFVB5TSwIIiVgEbf7tenLdHkfqCp8M0ElaQ&s",
->>>>>>> 2c051ca5c5f50947c2ecfb0f1754bd6c985c89ac
   },
   {
     id: 3,
@@ -47,12 +37,7 @@ export const produtos: IProduto[] = [
     descricao: "Espeto de carne bovina temperada na brasa.",
     valor: 10.0,
     categoria: "espeto",
-<<<<<<< HEAD
     imgUrl: "https://espetinhodesucesso.com/wp-content/uploads/2018/09/espetinho-de-costela.jpg",
-=======
-    imgUrl:
-      "https://espetinhodesucesso.com/wp-content/uploads/2018/09/espetinho-de-costela.jpg",
->>>>>>> 2c051ca5c5f50947c2ecfb0f1754bd6c985c89ac
   },
   {
     id: 4,
@@ -60,12 +45,7 @@ export const produtos: IProduto[] = [
     descricao: "Espeto de frango marinado no alho e ervas.",
     valor: 8.0,
     categoria: "espeto",
-<<<<<<< HEAD
     imgUrl: "https://www.qdeliciaespeto.com.br/loja/wp-content/uploads/2016/06/frango.jpg",
-=======
-    imgUrl:
-      "https://www.qdeliciaespeto.com.br/loja/wp-content/uploads/2016/06/frango.jpg",
->>>>>>> 2c051ca5c5f50947c2ecfb0f1754bd6c985c89ac
   },
   {
     id: 5,
@@ -81,11 +61,7 @@ export const produtos: IProduto[] = [
     descricao: "Refrigerante Coca-Cola garrafa 2 litros.",
     valor: 10.0,
     categoria: "bebida",
-<<<<<<< HEAD
     imgUrl: "https://thepetitpizzaria.com.br/gramado/wp-content/uploads/2021/06/Pet-2-Litros-Coca-Cola-PNG.png",
-=======
-    imgUrl: "https://thepetitpizzaria.com.br/gramado/wp-content/uploads/2021/06/Pet-2-Litros-Coca-Cola-PNG.png"
->>>>>>> 2c051ca5c5f50947c2ecfb0f1754bd6c985c89ac
   },
   {
     id: 7,
@@ -93,11 +69,7 @@ export const produtos: IProduto[] = [
     descricao: "Refrigerante guaraná 350ml gelado.",
     valor: 5.0,
     categoria: "bebida",
-<<<<<<< HEAD
     imgUrl: "https://brf.file.force.com/servlet/servlet.ImageServer?id=015U600000025zh&oid=00D410000012TJa&lastMod=1703691077000",
-=======
-    imgUrl: "https://brf.file.force.com/servlet/servlet.ImageServer?id=015U600000025zh&oid=00D410000012TJa&lastMod=1703691077000"
->>>>>>> 2c051ca5c5f50947c2ecfb0f1754bd6c985c89ac
   },
   {
     id: 8,
@@ -105,11 +77,7 @@ export const produtos: IProduto[] = [
     descricao: "Suco natural feito na hora, 300ml.",
     valor: 7.0,
     categoria: "bebida",
-<<<<<<< HEAD
     imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIdXJ1wuzIxz7FZnRI8uXcGgTHQv3LdiWluQ&s",
-=======
-    imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIdXJ1wuzIxz7FZnRI8uXcGgTHQv3LdiWluQ&s"
->>>>>>> 2c051ca5c5f50947c2ecfb0f1754bd6c985c89ac
   },
   {
     id: 9,
@@ -117,11 +85,7 @@ export const produtos: IProduto[] = [
     descricao: "Porção de batata frita crocante (200g).",
     valor: 8.0,
     categoria: "batata_frita",
-<<<<<<< HEAD
     imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHh2s4IG1-6FiXpjLb-Y7qhr0Bu8PAaxe-APbj3nv8z5POSpi3eQn9LevTORZVf_TiXrc&usqp=CAU",
-=======
-    imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHh2s4IG1-6FiXpjLb-Y7qhr0Bu8PAaxe-APbj3nv8z5POSpi3eQn9LevTORZVf_TiXrc&usqp=CAU"
->>>>>>> 2c051ca5c5f50947c2ecfb0f1754bd6c985c89ac
   },
   {
     id: 10,
@@ -129,11 +93,6 @@ export const produtos: IProduto[] = [
     descricao: "Porção grande de batata frita crocante (400g).",
     valor: 14.0,
     categoria: "batata_frita",
-<<<<<<< HEAD
     imgUrl: "https://www.pintoburguer.com.br/wp-content/uploads/2021/09/fritas-1.jpg",
-=======
-    imgUrl:
-      "https://www.pintoburguer.com.br/wp-content/uploads/2021/09/fritas-1.jpg",
->>>>>>> 2c051ca5c5f50947c2ecfb0f1754bd6c985c89ac
   },
 ];
